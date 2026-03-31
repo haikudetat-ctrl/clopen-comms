@@ -1,0 +1,10 @@
+node_modules
+.pnpm-store
+.next
+expo-env.d.ts
+.env
+.env.*
+.DS_Store
+dist
+coverage
+supabase/.temp

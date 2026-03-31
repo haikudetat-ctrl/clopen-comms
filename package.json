@@ -1,0 +1,15 @@
+{
+  "name": "clopen-platform",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "pnpm --filter @clopen/web dev",
+    "dev:mobile": "pnpm --filter @clopen/mobile start",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint"
+  }
+}
